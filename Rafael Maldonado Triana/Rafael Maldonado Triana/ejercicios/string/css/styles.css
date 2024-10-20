@@ -1,0 +1,147 @@
+/* Estilos generales para el cuerpo */
+body {
+    background: url(../img/bgblanco.png) repeat;
+    text-align: justify;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Encabezado de la página */
+  .header {
+    background: darkolivegreen;
+    opacity: 0.5;
+    text-align: center;
+    padding: 5px;
+    color: rgba(255, 250, 250, 0.90);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Barra de navegación superior */
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.85;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgba(255, 250, 250, 0.90);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+    color: rgba(255, 215, 0, 0.75);
+  }
+  
+  /* Contenedor principal */
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Área de texto para escribir */
+  textarea#inputText {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #333;
+    resize: none;
+  }
+  
+  /* Estilos de los botones */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+  /* Botones de control adicionales */
+  #btn-stop, #btn-fast, #btn-slow {
+    background-color: black;
+    color: white;
+  }
+  
+  #btn-stop:hover, #btn-fast:hover, #btn-slow:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+    color: rgba(255, 215, 0, 0.75);
+  }
+  
+  /* Estilo de tarjetas */
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+  }
+  
+  .cardTitle {
+    font-size: 24px;
+    padding: 10px 10px 0 10px;
+  }
+  
+  .cardBody {
+    padding: 10px;
+    flex: 1 1 100%;
+  }
+  
+  .cardFooter {
+    background: black;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cardFooter a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .cardFooter a:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+    color: rgba(255, 215, 0, 0.75);
+  }
+  
+  /* Pie de página */
+  .footer {
+    background: black;
+    opacity: 0.5;
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 250, 250, 0.90);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Adaptación para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
